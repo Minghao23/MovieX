@@ -1,0 +1,89 @@
+#panel{
+    margin: auto;
+    text-align:center;
+    font-size:15px;
+    color:#000000;
+    font-weight:bold;
+}
+#searchBar{
+    top:0px;
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    position:fixed;
+    background:grey;
+    color:white;
+}
+#detailArea{
+    margin-top: 60px;
+    width:100%;
+    text-align: left;
+}
+#reviewArea{
+    margin-top: 30px 0;
+    width:100%;
+    text-align: center;
+}
+#previousReviews{
+    margin:10px 0;
+    width:100%;
+    text-align: center;
+}
+.previousReview{
+    margin:10px 0;
+    width:100%;
+    height:200px;
+}
+.reviewTable{
+    border-collapse: collapse;
+    width:100%;
+    height:100%;
+}
+.reviewTable, .reviewTable td{
+    border: 2px solid black;
+}
+.floatRightSpan{
+    float: right;
+}
+.reviewContent{
+    padding-top: 10px;
+    vertical-align: top;
+}
+#addReview{
+    margin: 20px 0;
+    width:100%;
+    height:200px;
+}
+textarea{
+    width:100%;
+    height:100%;
+}
+#image{
+    display: inline-block;
+    margin:auto;
+    float:left;
+    width:280px;
+    height:400px;
+    background: gainsboro;
+    text-align: center;
+}
+#information{
+    margin:auto 50px;
+    float:left;
+    width:600px;
+    text-align: left;
+}
+b{
+    font-weight: bold;
+    color:grey;
+}
+#favoriteLabel{
+    margin-left: 10px;
+    font-size: 15px;
+    color:grey;
+    height: 27px;
+    vertical-align: middle;
+}
+#favoriteImg{
+    vertical-align: middle;
+}

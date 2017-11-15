@@ -1,0 +1,37 @@
+.genres-list * {
+    vertical-align: middle;
+}
+.genres-list input[type="radio"] {
+    clear:left;
+    vertical-align: middle;
+}
+
+.genres-list label {
+    width:120px;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.genre {
+    display: inline-block;
+}
+
+#searchResultTable{
+    cellspacing:10px;
+    width:90%;
+    border:1px;
+    overflow:scroll;
+}
+
+b{
+    font-weight:bold;
+}
+
+.submit-button input{
+    font-size:40pt;
+}
+
+.submit-button {
+    text-align: center;
+}
+
